@@ -2,7 +2,7 @@
 
 AI Elixir convenience package. 
 
-Inspired by a San Francisco billboard ```npm -i ai```
+Inspired by a San Francisco billboard ```npm -i ai``` https://www.npmjs.com/package/ai
 
 ## Requirements
 
