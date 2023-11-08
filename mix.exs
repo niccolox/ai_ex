@@ -11,6 +11,20 @@ defmodule Ai.MixProject do
     ]
   end
 
+  defp description() do
+    "AI Elixir convenience package."
+  end
+
+  defp package() do
+    [
+      # This option is only needed when you don't want to use the OTP application name
+      name: "ai",
+      # These are the default files included in the package
+      licenses: ["GPL-2"],
+      links: %{"GitHub" => "https://github.com/niccolox/ai_ex"}
+    ]
+  end
+
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
