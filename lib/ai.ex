@@ -1,4 +1,4 @@
-defmodule Ai do
+defmodule AiEx do
   @moduledoc """
   Documentation for `Ai`.
   """
