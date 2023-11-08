@@ -14,7 +14,7 @@ defmodule AiEx.MixProject do
   end
 
   defp description() do
-    "AI Elixir convenience package."
+    "AI Elixir convenience package to install Bumblebee, Nx, Explorer, Scholar, Image, Torch, Tensorflow etc. Inspired by npm -i ai"
   end
 
   defp package() do
