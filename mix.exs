@@ -22,7 +22,7 @@ defmodule AiEx.MixProject do
       # This option is only needed when you don't want to use the OTP application name
       name: "ai_ex",
       # These are the default files included in the package
-      licenses: ["GPL-2"],
+      licenses: ["MIT"],
       links: %{"GitHub" => "https://github.com/niccolox/ai_ex"}
     ]
   end
