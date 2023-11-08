@@ -1,6 +1,8 @@
 # Ai
 
-**TODO: Add description**
+AI Elixir convenience package. 
+
+Inspired by a San Francisco billboard ```npm -i ai```
 
 ## Installation
 
