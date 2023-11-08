@@ -40,7 +40,7 @@ defmodule Ai.MixProject do
       {:bumblebee, "~> 0.4.2"},
       {:exla, "~> 0.6.1"},
       {:explorer, "~> 0.7.1"},
-      {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
+      {:ex_doc, ">= 0.0.0"},
       {:image, "~> 0.38.3"},
       {:openai, "~> 0.5.4"},
       {:scholar, "~> 0.2.1"},
