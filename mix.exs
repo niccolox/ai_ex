@@ -3,7 +3,7 @@ defmodule Ai.MixProject do
 
   def project do
     [
-      app: :ai,
+      app: :a,
       version: "0.1.0",
       elixir: "~> 1.14",
       start_permanent: Mix.env() == :prod,
@@ -20,7 +20,7 @@ defmodule Ai.MixProject do
   defp package() do
     [
       # This option is only needed when you don't want to use the OTP application name
-      name: "ai",
+      name: "ai_ex",
       # These are the default files included in the package
       licenses: ["GPL-2"],
       links: %{"GitHub" => "https://github.com/niccolox/ai_ex"}
