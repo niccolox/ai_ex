@@ -1,8 +1,8 @@
-defmodule AiTest do
+defmodule AiExTest do
   use ExUnit.Case
-  doctest Ai
+  doctest AiEx
 
   test "greets the world" do
-    assert Ai.hello() == :world
+    assert AiEx.hello() == :world
   end
 end
