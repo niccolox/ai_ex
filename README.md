@@ -4,6 +4,12 @@ AI Elixir convenience package.
 
 Inspired by a San Francisco billboard ```npm -i ai```
 
+## Requirements
+
+On Ubuntu
+
+```sudo apt install cmake```
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
