@@ -38,12 +38,17 @@ defmodule AiEx.MixProject do
   defp deps do
     [
       {:ai, "~> 0.3.4"},
+      {:anthropic, "~> 0.1.0"},
       {:bumblebee, "~> 0.4.2"},
+      # https://docs.cohere.com/reference/about
       {:exla, "~> 0.6.1"},
       {:explorer, "~> 0.7.1"},
       {:ex_doc, ">= 0.0.0"},
+      # https://app.fireworks.ai/
       {:image, "~> 0.38.3"},
+      {:langchain, "~> 0.1.2"},
       {:openai, "~> 0.5.4"},
+      {:replicate, "~> 1.2"},
       {:scholar, "~> 0.2.1"},
 #      {:scidata, "~> 0.1.11", override: true},
       {:tflite_elixir, "~> 0.3.4"},

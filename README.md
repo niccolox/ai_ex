@@ -1,4 +1,4 @@
-# Ai
+# AiEx
 
 AI Elixir convenience package. 
 
