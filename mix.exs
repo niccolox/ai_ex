@@ -37,6 +37,7 @@ defmodule AiEx.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
+      {:ai, "~> 0.3.4"},
       {:bumblebee, "~> 0.4.2"},
       {:exla, "~> 0.6.1"},
       {:explorer, "~> 0.7.1"},

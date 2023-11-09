@@ -18,15 +18,9 @@ by adding `ai` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:ai, "~> 0.1.0"}
+    {:ai_ex, "~> 0.1.0"}
   ]
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/ai>.
-
-
-
-{:a, "~> 0.1.0", hex: :ai_ex}
+Docs can be found at <https://hexdocs.pm/ai_ex>.

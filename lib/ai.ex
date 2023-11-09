@@ -1,6 +1,6 @@
 defmodule AiEx do
   @moduledoc """
-  Documentation for `Ai`.
+  Documentation for `AiEx`.
   """
 
   @doc """
@@ -8,7 +8,7 @@ defmodule AiEx do
 
   ## Examples
 
-      iex> Ai.hello()
+      iex> AiEx.hello()
       :world
 
   """
