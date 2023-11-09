@@ -57,18 +57,48 @@ defmodule AiEx.ChatComponents do
   attr :class, :string, default: nil
   slot :inner_block, required: true
 
-  <div
-      class={[
-        "rounded-lg bg-zinc-900 hover:bg-zinc-700 py-2 px-3",
-        "text-sm font-semibold leading-6 text-white active:text-white/80",
-        @class
-      ]}
-  >  
 
-    <%= render_slot(@inner_block) %>
+  def chatquestion(assigns) do
+    ~H"""
+	  <div
+	      class={[
+	        "rounded-lg bg-zinc-900 hover:bg-zinc-700 py-2 px-3",
+	        "text-sm font-semibold leading-6 text-white active:text-white/80",
+	        @class
+	      ]}
+	  >  
 
-  </div>
+	    <%= render_slot(@inner_block) %>
 
+	  </div>
+    """
+  end
+
+  @doc """
+  Renders an response.
+
+  ## Examples
+
+      <.response class="simple response">{@response}</.response>
+  """
+  attr :class, :string, default: nil
+  slot :inner_block, required: true
+
+  def chatresponse(assigns) do
+    ~H"""
+	  <div
+	      class={[
+	        "rounded-lg bg-zinc-900 hover:bg-zinc-700 py-2 px-3",
+	        "text-sm font-semibold leading-6 text-white active:text-white/80",
+	        @class
+	      ]}
+	  >  
+
+	    <%= render_slot(@inner_block) %>
+
+	  </div>
+    """
+  end
 
 
   @doc """
