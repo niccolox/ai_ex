@@ -19,7 +19,7 @@ defmodule AiEx do
   @doc """
 
   ## Examples
-    iex > Ai.Ex.send_question("will AI destroy humanity?", openai)
+    iex > AiEx.send_question("will AI destroy humanity?", openai)
     "of course not, AI doesn't kill people, people kill people"
 
   """
