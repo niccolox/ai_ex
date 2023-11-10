@@ -1,7 +1,6 @@
 import Config
 
-config :ai_ex,
-	config :nx,
+config :nx,
 	default_backend: EXLA.Backend
 
 config :openai,
