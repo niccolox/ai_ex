@@ -13,7 +13,7 @@ On Ubuntu
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `ai` to your list of dependencies in `mix.exs`:
+by adding `ai_ex` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
@@ -24,3 +24,6 @@ end
 ```
 
 Docs can be found at <https://hexdocs.pm/ai_ex>.
+
+
+mix hex.publish --replace
