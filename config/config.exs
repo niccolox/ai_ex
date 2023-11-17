@@ -1,7 +1,8 @@
 import Config
 
-config :nx,
-	default_backend: EXLA.Backend
+# config :ai_ex,
+# config :nx,
+# 	default_backend: EXLA.Backend
 
 config :openai,
   api_key: System.get_env("OPENAI_API_KEY"),

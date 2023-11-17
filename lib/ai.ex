@@ -1,6 +1,6 @@
 defmodule AiEx do
 
-  alias AiEx, as: Ai
+#  alias AiEx, as: Ai
   import Anthropic
   import OpenAI
   @moduledoc """
@@ -77,10 +77,10 @@ defmodule AiEx do
     })
   end
 
-  def chat(bumblebee, prompt, model_info, tokenizer) do
-    serving = Bumblebee.Text.fill_mask(model_info, tokenizer)
-    Nx.Serving.run(serving, "The capital of [MASK] is Paris.")
-  end
+  # def chat(bumblebee, prompt, model_info, tokenizer) do
+  #   # serving = Bumblebee.Text.fill_mask(model_info, tokenizer)
+  #   # Nx.Serving.run(serving, "The capital of [MASK] is Paris.")
+  # end
 
   def chat(langchain) do
   end
