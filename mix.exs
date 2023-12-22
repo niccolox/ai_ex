@@ -47,7 +47,7 @@ defmodule AiEx.MixProject do
       {:ex_doc, ">= 0.0.0"},
       # https://app.fireworks.ai/
       {:image, "~> 0.38.3"},
-      {:langchain, "~> 0.1.2"},
+#      {:langchain, "~> 0.1.2"},
       {:openai, "~> 0.5.4"},
       {:replicate, "~> 1.2"},
       {:scholar, "~> 0.2.1"},
