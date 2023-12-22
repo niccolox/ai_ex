@@ -42,6 +42,7 @@ defmodule AiEx.MixProject do
       {:bumblebee, "~> 0.4.2"},
       # https://docs.cohere.com/reference/about
       {:exla, "~> 0.6.1"},
+      {:explorer, github: "niccolox/rustler"},
       {:explorer, "~> 0.7.1"},
       {:ex_doc, ">= 0.0.0"},
       # https://app.fireworks.ai/
